@@ -30,8 +30,6 @@ body{
 }
 .bottom{
   padding: 20px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
+  display: grid;
+  grid-template-columns: 2;
 }
